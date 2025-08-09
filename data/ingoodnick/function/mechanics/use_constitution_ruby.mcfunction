@@ -35,6 +35,10 @@ playsound minecraft:entity.warden.heartbeat ambient @s ~ ~ ~ 1 0.5
 effect give @s minecraft:darkness 4 100 true
 effect give @s minecraft:nausea 5 1 true
 execute at @s run particle minecraft:crit ~ ~1 ~ 0 0 0 1 60
+playsound minecraft:particle.soul_escape block @s ~ ~ ~10
+playsound minecraft:particle.soul_escape block @s ~ ~ ~-10
+playsound minecraft:particle.soul_escape block @s ~10 ~ ~
+playsound minecraft:particle.soul_escape block @s ~-10 ~ ~
 
 # Reset the event.
 execute at @s run advancement revoke @s only ingoodnick:events/event_constitution_ruby
