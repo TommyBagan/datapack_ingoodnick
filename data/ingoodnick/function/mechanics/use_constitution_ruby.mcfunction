@@ -1,3 +1,6 @@
+# Reset the event.
+execute at @s run advancement revoke @s only ingoodnick:events/event_constitution_ruby
+
 # Records player HP as an integer.
 scoreboard players set @s ingoodnick_player_hp 0
 execute store result score @s ingoodnick_player_hp run attribute @s max_health base get 1
@@ -40,6 +43,4 @@ playsound minecraft:particle.soul_escape block @s ~ ~ ~-10
 playsound minecraft:particle.soul_escape block @s ~10 ~ ~
 playsound minecraft:particle.soul_escape block @s ~-10 ~ ~
 
-# Reset the event.
-execute at @s run advancement revoke @s only ingoodnick:events/event_constitution_ruby
 return 0
