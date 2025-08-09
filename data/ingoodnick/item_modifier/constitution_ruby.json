@@ -1,0 +1,55 @@
+{
+  "function": "sequence",
+  "functions": [
+    {
+      "function": "set_item",
+      "item": "music_disc_5"
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:attribute_modifiers": [],
+        "minecraft:enchantments": {},
+        "minecraft:item_model": "ingoodnick:constitution_ruby",
+        "minecraft:custom_data": {
+          "actual_id": "constitution_ruby"
+        },
+        "!minecraft:jukebox_playable": {},
+        "minecraft:item_name": {
+          "translate": "item.ingoodnick.constitution_ruby",
+          "fallback": "Constitution Ruby"
+        },
+        "minecraft:lore": [
+          {
+            "translate": "item.ingoodnick.constitution_ruby.lore.1",
+            "color": "red",
+            "italic": false,
+            "fallback": "A gift to postpone your end,"
+          },
+          {
+            "translate": "item.ingoodnick.constitution_ruby.lore.2",
+            "color": "red",
+            "italic": false,
+            "fallback": "This jewel makes you hearty."
+          }
+        ],
+        "minecraft:damage": 0,
+        "!minecraft:max_damage": {},
+        "minecraft:max_stack_size": 1,
+        "minecraft:rarity": "epic",
+        "minecraft:repair_cost": 0,
+        "!minecraft:repairable": {},
+        "consumable": {
+          "consume_seconds": 1,
+          "animation": "bow",
+          "has_consume_particles": false,
+          "sound": "minecraft:intentionally_empty"
+        },
+        "use_cooldown": {
+          "seconds": 2,
+          "cooldown_group": "ingoodnick:rubies"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Datapack which makes Minecraft more challenging, by reducing the player's initial max health, but adding Constitution Rubies, which grant the player increases in max health.",
+    "pack_format": 81
+  }
+}

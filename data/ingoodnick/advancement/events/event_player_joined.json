@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "player_joined": {
+      "trigger": "location",
+      "conditions": {
+        "player": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "ingoodnick:mechanics/join"
+  },
+  "sends_telemetry_event": false
+}

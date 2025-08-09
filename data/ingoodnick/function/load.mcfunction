@@ -1,0 +1,1 @@
+scoreboard objectives add ingoodnick_player_hp dummy
