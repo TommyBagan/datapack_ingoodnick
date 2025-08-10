@@ -1,7 +1,7 @@
 {
     "exhaustion": 100,
     "effects": "hurt",
-    "message_id": "ingoodnick_ruby",
+    "message_id": "ingoodnick_gem",
     "scaling": "never",
     "death_message_type": "default"
 }

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "actual_id": "spiteful_amber"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ingoodnick:mechanics/use_spiteful_amber"
+  },
+  "sends_telemetry_event": false
+}

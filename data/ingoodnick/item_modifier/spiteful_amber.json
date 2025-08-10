@@ -10,33 +10,33 @@
       "components": {
         "minecraft:attribute_modifiers": [],
         "minecraft:enchantments": {},
-        "minecraft:item_model": "ingoodnick:constitution_ruby",
+        "minecraft:item_model": "ingoodnick:spiteful_amber",
         "minecraft:custom_data": {
-          "actual_id": "constitution_ruby"
+          "actual_id": "spiteful_amber"
         },
         "!minecraft:jukebox_playable": {},
         "minecraft:item_name": {
-          "translate": "item.ingoodnick.constitution_ruby",
-          "fallback": "Constitution Ruby"
+          "translate": "item.ingoodnick.spiteful_amber",
+          "fallback": "Spiteful Amber"
         },
         "minecraft:lore": [
           {
-            "translate": "item.ingoodnick.constitution_ruby.lore.1",
-            "color": "red",
+            "translate": "item.ingoodnick.spiteful_amber.lore.1",
+            "color": "yellow",
             "italic": false,
-            "fallback": "A gift to postpone your end,"
+            "fallback": "Cursed gift to pass your end,"
           },
           {
-            "translate": "item.ingoodnick.constitution_ruby.lore.2",
-            "color": "red",
+            "translate": "item.ingoodnick.spiteful_amber.lore.2",
+            "color": "yellow",
             "italic": false,
-            "fallback": "This jewel makes you hearty."
+            "fallback": "Sacrifices must be made."
           }
         ],
         "minecraft:damage": 0,
         "!minecraft:max_damage": {},
         "minecraft:max_stack_size": 1,
-        "minecraft:rarity": "rare",
+        "minecraft:rarity": "epic",
         "minecraft:repair_cost": 0,
         "!minecraft:repairable": {},
         "consumable": {

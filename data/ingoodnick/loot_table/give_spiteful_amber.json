@@ -1,0 +1,20 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "music_disc_5",
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "ingoodnick:spiteful_amber"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

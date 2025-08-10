@@ -5,7 +5,10 @@
   "item.ingoodnick.constitution_ruby": "Constitution Ruby",
   "item.ingoodnick.constitution_ruby.lore.1": "A gift to postpone your end,",
   "item.ingoodnick.constitution_ruby.lore.2": "This jewel makes you hearty.",
-  "item.ingoodnick.constitution_ruby.no_more_uses": "Your are at your mortal end, the jewel can empower you no more...",
+  "item.ingoodnick.constitution_amber": "Spiteful Amber",
+  "item.ingoodnick.constitution_amber.lore.1": "Cursed gift to pass your end,",
+  "item.ingoodnick.constitution_amber.lore.2": "Sacrifices must be made.",
+  "item.ingoodnick.constitution_gem.no_more_uses": "Your are at your mortal end, the jewel can empower you no more...",
   "message.ingoodnick.join": "I lack Constitution.",
   "message.ingoodnick.4": "Suffer",
   "message.ingoodnick.6": "Agony",
@@ -26,7 +29,7 @@
   "message.ingoodnick.36": "Leap?",
   "message.ingoodnick.38": "Abyss?",
   "message.ingoodnick.40": "Relief...",
-  "death.attack.ingoodnick_ruby": "%s sucumb to their mortal burden.",
-  "death.attack.ingoodnick_ruby.player": "%s sucumb to their mortal burden whilst trying to escape %s",
-  "death.attack.ingoodnick_ruby.item": "%s sucumb to their mortal burden by using %s" 
+  "death.attack.ingoodnick_gem": "%s sucumb to their mortal burden.",
+  "death.attack.ingoodnick_gem.player": "%s sucumb to their mortal burden whilst trying to escape %s",
+  "death.attack.ingoodnick_gem.item": "%s sucumb to their mortal burden by using %s" 
 }

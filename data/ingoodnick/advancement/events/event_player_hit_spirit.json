@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "spirit_hit": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"ingoodnick_spirit\"]}",
+          "type": "vex"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ingoodnick:mechanics/when_player_hit_spirit"
+  },
+  "sends_telemetry_event": false
+}
